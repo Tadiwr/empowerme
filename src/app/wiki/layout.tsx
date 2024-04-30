@@ -1,5 +1,5 @@
 import FixedSideBar from '@/lib/components/fixed_sidebar'
-import SideBarModal from '@/lib/components/sidebar_modal'
+import PopUpSideBar from '@/lib/components/popup_sidebar'
 import React, { ReactNode } from 'react'
 
 type Props = {
@@ -11,7 +11,7 @@ export default function WikiLayout({children} : Props) {
     <div className='w-full flex flex-col md:flex-row ' >
         
         <div className='md:hidden'  >
-            <SideBarModal/>
+            <PopUpSideBar/>
         </div>
         <div className='hidden md:flex'>
             <FixedSideBar/>
