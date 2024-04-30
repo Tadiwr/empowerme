@@ -46,7 +46,7 @@ export default function Home() {
       <div className="p-10 flex md:mt-20 flex-col justify-center items-center text-center" >
         <h1 className="text-3xl md:text-5xl font-bold mb-10" >EmpowerMe by EducatingMe</h1>
 
-        <div className=" w-full md:mt-10 gap-3 grid grid-cols-1 md:grid-cols-3" >
+        <div className=" w-full md:mt-10 gap-3 grid grid-cols-1 h-full md:grid-cols-3" >
             {services.map((service, index) => {
               return <ActionCard
                 key={index}
