@@ -13,10 +13,12 @@ export default function WikiLayout({children} : Props) {
         <div className='md:hidden'  >
             <PopUpSideBar/>
         </div>
-        <div className='hidden md:flex'>
+        <div className='hidden md:flex md:w-1/4'>
             <FixedSideBar/>
         </div>
-        {children}
+        <div className='h-full w-full md:w-3/4 bg-slate-100 rounded-xl m-3' >
+            {children}
+        </div>
     </div>
   )
 }

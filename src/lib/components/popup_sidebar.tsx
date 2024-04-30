@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function PopUpSideBar() {
 
-  const [show, setShow] = React.useState(true);
+  const [show, setShow] = React.useState(false);
 
   const toogleModal = () => {
     setShow(!show);
