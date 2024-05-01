@@ -1,8 +1,14 @@
 "use client";
 
 import React from 'react'
+import { TreeMenuItem } from '../types/tree_menu_items';
+import TreeMenu from './tree-components/tree_menu';
 
-export default function PopUpSideBar() {
+type Props = {
+  menuItems : TreeMenuItem[]
+}
+
+export default function PopUpSideBar({menuItems} : Props) {
 
   const [show, setShow] = React.useState(false);
 
@@ -18,7 +24,7 @@ export default function PopUpSideBar() {
       </div>
 
       <div className={`${show ? "flex" : "hidden"} w-full top-0 left-0 h-screen pt-5`} >
-        <p>Topic Area</p>
+        <TreeMenu menuItems={menuItems} />
       </div>
 
     </div>
