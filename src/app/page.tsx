@@ -30,7 +30,11 @@ export default function Home() {
       {/* Hero section */}
       <div className="bg-black text-white grid md:grid-cols-2 grid-cols-1 p-10 gap-5 md:py-20 justify-center items-center " >
         <h1 className="text-4xl md:text-7xl font-semibold" >Silence doesn't mean strength</h1>
-        <p className="" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis doloribus nisi veniam numquam impedit voluptatem mollitia nam facilis molestias eveniet, labore, hic ipsum. Quidem perferendis perspiciatis iure magnam deserunt ut!</p>
+        
+        <p className="" >
+          The problems concerning abuse is that some people are afraid of voicing out and reporting as a
+          result many abuse cases go unreported. According to the International Development Program
+          10 cases of sexual abuse go unreported for every girl who is sexual abused.</p>
       </div>
 
     {/* Brief About Section */}
