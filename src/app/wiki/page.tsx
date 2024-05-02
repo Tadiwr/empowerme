@@ -1,9 +1,11 @@
+import { redirect } from 'next/navigation';
 import React from 'react'
 
 export default function WikiMainPage() {
+
+  redirect("wiki/forms-of-abuse");
+
   return (
-    <div className='flex flex-col p-5 justify-start items-start' >
-        Content Area
-    </div>
+    <></>
   )
 }

@@ -1,23 +1,27 @@
 import ActionCard from "@/lib/components/action_card";
 import { title } from "process";
 
-const services : {title : string, desc : string}[] = [
+const services = [
   {
     title : "Forms of abuse",
     desc : `Learn about the different forms of abuse like Sexual, Finacial e.t.c aswell as 
-    why the Stockholm Sysndrome is the reason why so many abuse cases aren't reported`
+    why the Stockholm Sysndrome is the reason why so many abuse cases aren't reported`,
+    href : "/wiki/forms-of-abuse"
+    
   },
 
   {
     title : "What should I do?",
     desc : `Information on what to do if you or a person you know may be facing abuse as sometimes you don't even know what to do or even
-    where to start when you face abuse.`
+    where to start when you face abuse.`,
+    href : "/wiki/what-to-do"
   },
 
   {
     title : "Contacts",
     desc : `If you still have more questions, pressing issues, need imformation on guidance and 
-    want to report an abuse case. We have compiled a list of organisations in Zimbabwe we trust to help you`
+    want to report an abuse case. We have compiled a list of organisations in Zimbabwe we trust to help you`,
+    href : ""
   },
 
 ]
@@ -54,7 +58,7 @@ export default function Home() {
             {services.map((service, index) => {
               return <ActionCard
                 key={index}
-                href={""}
+                href={service.href}
                 desc={service.desc}
                 title={service.title}
               />

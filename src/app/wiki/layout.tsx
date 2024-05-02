@@ -17,6 +17,23 @@ const menuItems : TreeMenuItem[] = [
         title : "Stockholm Syndrome",
         href : "/wiki/stockholm-syndrome"
     },
+
+    {
+        title : "What to do",
+        href : "/wiki/what-to-do"
+    },
+
+    {
+        title : "What to do as a child",
+        href : "/wiki/what-to-do/as-a-child"
+    },
+
+    {
+        title : "Have Been Abused",
+        href : "/wiki/what-to-do/have-you-been-abused"
+    },
+
+    
 ]
 
 export default function WikiLayout({children} : Props) {
