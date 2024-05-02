@@ -21,7 +21,7 @@ const menuItems : TreeMenuItem[] = [
 
 export default function WikiLayout({children} : Props) {
   return (
-    <div className='w-full flex flex-col md:flex-row ' >
+    <div className='w-full flex flex-col md:flex-row px-5' >
         
         <div className='md:hidden'  >
             <PopUpSideBar menuItems={menuItems} />
@@ -29,7 +29,7 @@ export default function WikiLayout({children} : Props) {
         <div className='hidden sticky h-screen md:flex md:w-1/4'>
             <FixedSideBar menuItems={menuItems} />
         </div>
-        <div className='h-full w-full md:w-3/4 bg-slate-100 rounded-xl m-3' >
+        <div className='h-screen  p-10 overflow-auto w-full md:w-3/4 bg-slate-100 rounded-xl my-3' >
             {children}
         </div>
     </div>

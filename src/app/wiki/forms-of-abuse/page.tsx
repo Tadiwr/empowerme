@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FormsOfAbuse() {
   return (
-    <div className='p-10 flex flex-col' >
+    <div className='flex flex-col' >
         <h1 className='text-4xl font-extrabold header' >Forms and Abuse</h1>
 
         <div className=' w-full p-4 bg-slate-200 rounded-xl text-slate-800' >
