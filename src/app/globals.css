@@ -22,3 +22,17 @@ ul {
 ol {
     list-style-type:decimal;
 }
+
+.sources > a {
+    color : rgb(83, 71, 250);
+    font-weight: bold;
+}
+
+.sources > a :hover {
+    color: rgb(11, 0, 162);
+}
+
+.sources > p {
+    color: rgb(28, 28, 28);
+    font-weight: bold;
+}

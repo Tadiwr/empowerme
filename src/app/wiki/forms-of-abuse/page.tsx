@@ -1,3 +1,4 @@
+import SourcesContainer from '@/lib/components/typography/sources_con'
 import React from 'react'
 
 export default function FormsOfAbuse() {
@@ -5,9 +6,9 @@ export default function FormsOfAbuse() {
     <div className='flex flex-col' >
         <h1 className='text-4xl font-extrabold header' >Forms and Abuse</h1>
 
-        <div className=' w-full p-4 bg-slate-200 rounded-xl text-slate-800' >
-            Sources: Google , Types and indicators of abuse: Safeguarding adults - SCIE , 3.1 Categories of abuse | PLYMOUTH.GOV.UK
-        </div>
+        <SourcesContainer>
+            <p>Google, Types and indicators of abuse: Safeguarding adults - SCIE , 3.1 Categories of abuse | PLYMOUTH.GOV.UK</p>
+        </SourcesContainer>
 
         <ol>
             <li>Sexual abuse</li>
@@ -115,8 +116,6 @@ export default function FormsOfAbuse() {
             <li>Failure to seek help or access services to meet health and social care needs</li>
             <li>Inability or unwillingness to manage one’s personal affairs</li>
         </ul>
-
-        Sources: google , Types and indicators of abuse: Safeguarding adults - SCIE , 3.1 Categories of abuse | PLYMOUTH.GOV.UK
 
     </div>
   )
