@@ -25,7 +25,7 @@ const navlinks : {title : string, href : string}[] = [
 
 export default function Navbar() {
   return (
-    <div className='w-full p-5 grid grid-cols-2 md:px-10'  >
+    <div className='w-full p-5 grid grid-cols-2 z-50 sticky bg-white md:px-10 top-0 left-0'  >
         <div>
             <Link href="/" className='font-semibold md:text-xl ' >EmpowerMe ZW</Link>
         </div>
