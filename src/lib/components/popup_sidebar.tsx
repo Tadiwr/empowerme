@@ -24,7 +24,7 @@ export default function PopUpSideBar({menuItems} : Props) {
       </div>
 
       <div className={`${show ? "flex" : "hidden"} w-full top-0 left-0 h-screen pt-5`} >
-        <TreeMenu menuItems={menuItems} />
+        <TreeMenu  onItemClick={toogleModal} menuItems={menuItems} />
       </div>
 
     </div>

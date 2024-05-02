@@ -8,7 +8,7 @@ type Props = {
 
 export default function FixedSideBar({menuItems} : Props) {
   return (
-    <div className='p-3 flex justify-start flex-col' >
+    <div className=' flex justify-start flex-col p-10' >
       <h1 className='font-bold text-3xl' >Topics</h1>
       <TreeMenu menuItems={menuItems} />
     </div>

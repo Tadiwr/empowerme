@@ -10,12 +10,12 @@ type Props = {
 const menuItems : TreeMenuItem[] = [
     {
         title : "Forms of Abuse",
-        href : "topics/forms-of-abuse"
+        href : "/wiki/forms-of-abuse"
     },
 
     {
         title : "Stockholm Syndrome",
-        href : "topics/stock-holm-syndrome"
+        href : "/wiki/stockholm-syndrome"
     },
 ]
 
@@ -26,7 +26,7 @@ export default function WikiLayout({children} : Props) {
         <div className='md:hidden'  >
             <PopUpSideBar menuItems={menuItems} />
         </div>
-        <div className='hidden md:flex md:w-1/4'>
+        <div className='hidden sticky h-screen md:flex md:w-1/4'>
             <FixedSideBar menuItems={menuItems} />
         </div>
         <div className='h-full w-full md:w-3/4 bg-slate-100 rounded-xl m-3' >
