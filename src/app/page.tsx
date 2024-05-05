@@ -46,7 +46,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold md:text-5xl mb-3" >Welcome to EmpowerMe</h1>
 
         {/* Why this website exitst */}
-        <p className="md:text-2xl text-center md:px-10 py-5" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nemo unde magnam ducimus, ea consequatur, laboriosam tempore eligendi delectus possimus quia culpa, hic atque dicta at vitae officia inventore quidem.</p>
+        <p className="md:text-2xl text-center md:px-10 py-5" >Empower Me is the digital project inspired to spread awareness on abuse. Abuse is a <strong>very dark side of society</strong>, that sometimes is put on the carpet and can be tricky to tell at times because people don't always have enough knowledge on abuse. Let then the elders say "<strong>Kusaziva kufa</strong>". Fell free to use our resources. We did some research and compiled some resources for you to learn more about abuse.</p>
 
       </div>
 

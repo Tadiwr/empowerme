@@ -2,10 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 
 const navlinks : {title : string, href : string}[] = [
-    // {
-    //     title : 'Home',
-    //     href : "/"
-    // },
 
     {
         title : 'Learn',
