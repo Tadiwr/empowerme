@@ -21,7 +21,7 @@ const services = [
     title : "Contacts",
     desc : `If you still have more questions, pressing issues, need imformation on guidance and 
     want to report an abuse case. We have compiled a list of organisations in Zimbabwe we trust to help you`,
-    href : ""
+    href : "/contacts"
   },
 
 ]
