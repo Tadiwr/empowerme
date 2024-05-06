@@ -1,4 +1,5 @@
 import ActionCard from "@/lib/components/action_card";
+import Image from "next/image";
 import { title } from "process";
 
 const services = [
@@ -32,13 +33,17 @@ export default function Home() {
     <main className="flex flex-col justify-center items-center" >
       
       {/* Hero section */}
-      <div className="bg-black text-white grid md:grid-cols-2 grid-cols-1 p-10 gap-5 md:py-20 justify-center items-center " >
+      <div className="bg-black text-white relative md:grid md:grid-cols-2 md:py-20 justify-center w-full" >
+        <img src="/images/hero.jpg" alt="" className="z-10 md:z-0 bg-blend-overlay opacity-35 w-full" />
+
+        <div className=" z-30 w-full h-full top-0 right-0 absolute md:relative p-10" >
         <h1 className="text-4xl md:text-7xl font-semibold" >Silence doesn't mean strength</h1>
         
-        <p className="" >
+        <p className="mt-5 md:text-3xl" >
           The problems concerning abuse is that some people are afraid of voicing out and reporting as a
           result many abuse cases go unreported. According to the International Development Program
           10 cases of sexual abuse go unreported for every girl who is sexual abused.</p>
+        </div>
       </div>
 
     {/* Brief About Section */}
