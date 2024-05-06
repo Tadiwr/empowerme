@@ -7,8 +7,11 @@ import Footer from "@/lib/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Empower Me",
+  title: "EmpowerMe",
   description: "Abuse Awareness",
+  keywords: ["empower", "empowerme", "me", "abuse", "zimbabwe"],
+
+
 };
 
 export default function RootLayout({
@@ -18,6 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
+
       <body className={inter.className}>
         <Navbar/>
         <div >

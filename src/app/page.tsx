@@ -1,6 +1,4 @@
 import ActionCard from "@/lib/components/action_card";
-import Image from "next/image";
-import { title } from "process";
 
 const services = [
   {
