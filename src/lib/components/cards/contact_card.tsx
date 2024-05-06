@@ -14,10 +14,10 @@ type Props = {
 
 export default function ContactCard({contact} : Props) {
   return (
-    <div className='grid grid-cols-1 gap-3 p-5 border rounded-xl'>
+    <div className='grid grid-cols-1 gap-3 p-5 border rounded-xl h-fit'>
 
         <h1 className='font-bold text-xl' >{contact.name}</h1>
-        <p className="text-slate-400 p-2 border rounded-xl bg-slate-50 border-slate-200">{contact.suitibility}</p>
+        <p className="text-slate-600 p-2 border rounded-xl bg-slate-50 border-slate-200">{contact.suitibility}</p>
 
 
         <p>{contact.whatsApp && `Whats App ${contact.whatsApp}`}</p>
