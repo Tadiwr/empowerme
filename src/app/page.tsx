@@ -33,7 +33,7 @@ export default function Home() {
     <main className="flex flex-col justify-center items-center" >
       
       {/* Hero section */}
-      <div className="bg-black text-white relative md:grid md:grid-cols-2 md:py-20 justify-center w-full" >
+      <div className="bg-black text-white relative md:grid md:grid-cols-2 md:py-20 justify-center w-full md:p-0 p-10" >
         <img src="/images/hero.jpg" alt="" className="z-10 md:z-0 bg-blend-overlay opacity-35 w-full" />
 
         <div className=" z-30 w-full h-full top-0 right-0 absolute md:relative p-10" >
