@@ -20,6 +20,7 @@ export default function FormsOfAbuse() {
             <li>Organizational abuse</li>
             <li>Neglect or acts of ommission</li>
         </ol>
+        
 
         <h1 className='header'>1. Sexual abuse</h1>
 
