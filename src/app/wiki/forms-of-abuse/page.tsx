@@ -7,13 +7,12 @@ export default function FormsOfAbuse() {
         <h1 className='text-4xl font-extrabold header' >Forms and Abuse</h1>
 
         <SourcesContainer>
-            <p>Google, Types and indicators of abuse: Safeguarding adults - SCIE , 3.1 Categories of abuse | PLYMOUTH.GOV.UK</p>
+            <p>Google, Types and indicators of abuse: Safeguarding adults - SCIE, 3.1 Categories of abuse | PLYMOUTH.GOV.UK</p>
         </SourcesContainer>
 
         <ol>
             <li>Sexual abuse</li>
             <li>Physical abuse</li>
-            <li>Domestic abuse/violence</li>
             <li>Physiological / emotional abuse</li>
             <li>Financial or material abuse</li>
             <li>Modern slavery/human trafficking</li>
@@ -33,19 +32,16 @@ export default function FormsOfAbuse() {
 
         Physical abuse is intentional bodily injury or the use of physical force or mistreatment of one person by another which may or may not result in actual physical injury. This can include  hitting, pushing, pinching, choking, kicking, shoving, or inappropriately using drugs or physical restraints,rough handling, exposure to heat or cold, force feeding, improper administration of medication, denial of treatment(could be healthcare,a good or a service you’re entitled to receive), misuse or illegal use of restraint and deprivation of liberty(you are not free to leave and you are under continuous supervision and control.
 
-        <h1 className='header'>3. Domestic abuse/violence</h1>
-
-
-        <h1 className='header'>4.Psychological/emotional</h1>
+        <h1 className='header'>3.Psychological/emotional</h1>
 
         Psychological abuse  involves the regular and deliberate use of a range of words and non-physical actions used with the purpose to manipulate, hurt, weaken or frighten a person mentally and emotionally. This can be done through threats, humiliation or ridicule, provoking fear of violence, shouting, yelling,swearing, blaming, controlling, intimidation and coercion(the practice of persuading someone to do something by using force or threats),harassment, verbal abuse, cyber bullying, isolation or unreasonable and unjustified withdrawal of services or supportive networks.
 
 
-        <h1 className='header'>5.Financial/material abuse</h1> 
+        <h1 className='header'>4.Financial/material abuse</h1> 
 
         Financial/material abuse is the actual or attempted theft, fraud or burglary.  It is the misappropriation or misuse of money, property, benefits, material goods or other asset transactions which the person did not or could not consent to, or which were invalidated by intimidation, coercion (the practice of persuading someone to do something by using force or threats) or deception, internet scamming, withholding of money or the unauthorised or improper use of a person’s money or property, usually to the disadvantage of the person to whom it belongs and staff borrowing money or objects from a service user.
 
-        <h1 className='header'>6. Modern slavery</h1>
+        <h1 className='header'>5. Modern slavery</h1>
 
         Modern slavery and  is when an individual is exploited by others for commercial or personal gain. It can be in the form of;
         <ul>
@@ -60,12 +56,12 @@ export default function FormsOfAbuse() {
 
 
 
-        <h1 className='header'>7. Discriminatory abuse</h1>
+        <h1 className='header'>6. Discriminatory abuse</h1>
 
         Discriminatory abuse is the unequal treatment of an individual based on age, disability, gender and gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion and belief, sex or sexual orientation. It can also be called Hate crime 
 
 
-        <h1 className='header'>8.Organizational abuse</h1>
+        <h1 className='header'>7.Organizational abuse</h1>
 
         Organizational abuse is the institutional abuse is the maltreatment of a person from a system of power. This may include ;
         <ul>
@@ -89,7 +85,7 @@ export default function FormsOfAbuse() {
         </ul>
 
 
-        <h1 className='header'>9.Neglect or acts of omission</h1>
+        <h1 className='header'>8.Neglect or acts of omission</h1>
         This may include;
 
         <ul>
@@ -105,7 +101,7 @@ export default function FormsOfAbuse() {
             <li>Failure to ensure privacy and dignity</li>
         </ul>
 
-        <h1 className='header'>10. Self neglect</h1>
+        <h1 className='header'>9. Self neglect</h1>
         Self neglect is when a person being unable, or unwilling, to care for their own essential needs
         This may include;
         

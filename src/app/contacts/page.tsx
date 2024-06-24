@@ -3,7 +3,6 @@ import { contacts } from '@/lib/constants/contacts';
 import React from 'react';
 
 
-
 export default function ContactsPage() {
   return (
     <div className='p-10 flex flex-col justify-center items-center' >
